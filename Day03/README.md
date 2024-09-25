@@ -76,7 +76,7 @@ Containers are stateless by nature, meaning if a container is deleted, all data 
 
    docker start mongodb
 
-   exec -it mongodb mongosh
+   docker exec -it mongodb mongosh
 
 
 ### Using Bind Mounts
