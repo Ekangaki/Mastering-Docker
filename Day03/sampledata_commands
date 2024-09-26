@@ -7,15 +7,15 @@ get into container docker exec -it mongodb mongosh > showdbs
 
 db.helo.insertMany([
 { "_id" : 1, "name" : "Matt", "status": "active", "level": 12, "score":202},
-        	{ "_id" : 2, "name" : "Frank", "status": "inactive", "level": 2, "score":9},
-        	{ "_id" : 3, "name" : "Karen", "status": "active", "level": 7, "score":87},
-        	{ "_id" : 4, "name" : "Katie", "status": "active", "level": 3, "score":27, "status": "married", "emp": "yes", "kids": 3},
-        	{ "_id" : 5, "name" : "Matt1", "status": "active", "level": 12, "score":202},
-        	{ "_id" : 6, "name" : "Frank2", "status": "inactive", "level": 2, "score":9},
-        	{ "_id" : 7, "name" : "Karen3", "status": "active", "level": 7, "score":87},
-        	{ "_id" : 8, "name" : "Katie4", "status": "active", "level": 3, "score":27, "status": "married", "emp": "yes", "kids": 3}
+        	{ "_id" : 2, "name" : "Ekangaki", "status": "inactive", "level": 2, "score":9},
+        	{ "_id" : 3, "name" : "Ayompe", "status": "active", "level": 7, "score":87},
+        	{ "_id" : 4, "name" : "Esapa", "status": "active", "level": 3, "score":27, "status": "married", "emp": "yes", "kids": 3},
+        	{ "_id" : 5, "name" : "Nzalie", "status": "active", "level": 12, "score":202},
+        	{ "_id" : 6, "name" : "Asopo", "status": "inactive", "level": 2, "score":9},
+        	{ "_id" : 7, "name" : "Njang", "status": "active", "level": 7, "score":87},
+        	{ "_id" : 8, "name" : "Cookey", "status": "active", "level": 3, "score":27, "status": "married", "emp": "yes", "kids": 3}
         	])
-db.helo.find({name: "Katie"})
+db.helo.find({name: "Ekangaki"})
 
 ##############################################
 
