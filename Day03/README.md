@@ -1,5 +1,6 @@
 
-![03](https://github.com/saikiranpi/Mastering-Docker/assets/109568252/099fe856-0a3f-4b60-b093-c240d20834f1)
+![Ekangaki DC](https://raw.githubusercontent.com/Ekangaki/Nguti-eLearning/main/img/Ekangaki-DC.png)
+
 
 
 ## Table of Contents
